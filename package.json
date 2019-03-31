@@ -2,13 +2,16 @@
   "name": "vue_crash_todolist",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://samy997.github.io/vue_todolist",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
